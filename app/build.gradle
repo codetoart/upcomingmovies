@@ -45,6 +45,10 @@ android {
         exclude 'META-INF/dependencies.txt'
         exclude 'META-INF/LGPL2.1'
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 greendao {
@@ -54,7 +58,7 @@ greendao {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    final SUPPORT_LIBRARY_VERSION = '24.1.1'
+    final SUPPORT_LIBRARY_VERSION = '24.2.1'
     final RETROFIT_VERSION = '2.0.0'
     final OKHTTP_VERSION = '3.2.0'
     final DAGGER_VERSION = '2.5'
