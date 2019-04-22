@@ -12,7 +12,7 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 
 /**
- * Created by Mahavir on 04/11/2014.
+ * Created by Vikas on 04/11/2014.
  */
 public class CImageLoader {
     private static final String UNIVERSAL_IMAGE_LOADER = "universal-image-loader";
